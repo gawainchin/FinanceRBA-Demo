@@ -1,4 +1,4 @@
-#!/Users/gawainchin/Documents/GitHub/FinanceRBA-Demo/.venv/bin/python
+#!/Users/gawainchin/Documents/GitHub/FinanceRBA-Demo/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
