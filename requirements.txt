@@ -1,0 +1,9 @@
+pyautogen>=0.2.0
+llama-index-core>=0.10.0
+llama-index-readers-file>=0.4.4
+llama-index-embeddings-openai>=0.3.1
+llama-index-llms-openai>=0.3.18
+openai>=1.12.0
+typing-extensions>=4.5.0
+python-dotenv>=1.0.0
+pyOpenSSL>=25.0.0
