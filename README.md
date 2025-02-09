@@ -1,29 +1,40 @@
-# Financial Advisor RBA (Rule-Based AI)
+# Financial Advisor AI
 
-An intelligent financial advisory system that combines market data analysis, portfolio management, and regulatory compliance using AI agents.
+An advanced AI-powered financial advisory system that leverages Large Language Models (LLMs) and autonomous agents to provide sophisticated investment guidance. The system combines real-time market analysis, intelligent portfolio management, and automated regulatory compliance checks through a multi-agent architecture.
+
+## Overview
+
+This system utilizes state-of-the-art AI technologies:
+- **GPT-4**: Powers natural language understanding and generation
+- **LlamaIndex**: Enables intelligent processing of financial documents
+- **AutoGen**: Orchestrates multiple AI agents for complex decision-making
+- **Vector Embeddings**: For semantic search and document analysis
 
 ## Features
 
-- **Multi-Agent System**:
-  - Financial Advisor Agent: Conducts initial assessment and portfolio planning
-  - Portfolio Recommendation Agent: Generates investment strategies
-  - Market Data Agent: Provides real-time market insights
-  - Regulatory Compliance Agent: Ensures recommendations meet regulatory standards
+- **Autonomous Multi-Agent System**:
+  - Financial Advisor Agent: Leads client interactions and financial planning
+  - Portfolio Recommendation Agent: Generates data-driven investment strategies
+  - Market Data Agent: Analyzes market trends and provides real-time insights
+  - Regulatory Compliance Agent: Ensures adherence to financial regulations
 
-- **Market Analysis**:
-  - Processes market research PDFs
-  - Analyzes current market trends
-  - Provides data-backed investment insights
+- **Intelligent Market Analysis**:
+  - Advanced NLP processing of market research documents
+  - Real-time market trend analysis
+  - Semantic search across financial reports
+  - Data-backed investment insights
 
-- **Portfolio Management**:
-  - Custom portfolio recommendations
-  - Risk assessment and management
-  - Asset allocation strategies
+- **AI-Driven Portfolio Management**:
+  - Personalized portfolio recommendations
+  - Dynamic risk assessment and optimization
+  - Machine learning-based asset allocation
+  - Automated portfolio rebalancing suggestions
 
-- **Regulatory Compliance**:
+- **Automated Compliance**:
+  - Real-time regulatory compliance verification
   - SEC, MiFID II, FINRA, and GDPR compliance checks
-  - Automated compliance verification
-  - Regulatory documentation support
+  - AI-powered documentation review
+  - Automated risk assessment
 
 ## Prerequisites
 
@@ -75,9 +86,9 @@ python FinancialAdvisorRBA/financialdemo.py
 ```
 
 The system will:
-1. Load and process market research documents
-2. Initialize AI agents
-3. Start an interactive session for portfolio review and investment strategy
+1. Initialize the AI agent network
+2. Process and embed market research documents
+3. Start an interactive session for personalized financial advice
 
 ## Project Structure
 
@@ -95,21 +106,42 @@ FinanceRBA-Demo/
         └── wpb-investment-monthly-jan-25.pdf
 ```
 
-## Dependencies
+## Technical Stack
 
-- pyautogen: Multi-agent conversation framework
-- llama-index: Document processing and querying
-- openai: GPT-4 integration
-- python-dotenv: Environment variable management
-- Additional LlamaIndex components for embeddings and LLM support
+- **Core AI Components**:
+  - pyautogen: Advanced multi-agent orchestration
+  - llama-index: Intelligent document processing and retrieval
+  - openai: GPT-4 integration for natural language understanding
+  - Vector embeddings for semantic document analysis
 
-## Configuration
+- **Supporting Technologies**:
+  - python-dotenv: Environment management
+  - LlamaIndex components for embeddings and LLM support
+  - PDF processing and analysis tools
 
-The system uses several key configurations:
-- OpenAI GPT-4 for natural language processing
-- LlamaIndex for document processing and querying
-- Custom speaker selection for multi-agent interactions
-- Automated compliance checking workflows
+## System Architecture
+
+The system employs a sophisticated multi-agent architecture where each AI agent specializes in specific aspects of financial advisory:
+
+1. **Financial Advisor Agent**:
+   - Manages client interactions
+   - Coordinates with other agents
+   - Generates comprehensive financial plans
+
+2. **Portfolio Agent**:
+   - Analyzes investment opportunities
+   - Generates portfolio recommendations
+   - Optimizes asset allocation
+
+3. **Market Data Agent**:
+   - Processes market research
+   - Provides real-time insights
+   - Analyzes market trends
+
+4. **Compliance Agent**:
+   - Ensures regulatory compliance
+   - Validates recommendations
+   - Maintains documentation standards
 
 ## Contributing
 
@@ -119,12 +151,9 @@ The system uses several key configurations:
 4. Push to the branch
 5. Create a new Pull Request
 
-## License
-
-[Your chosen license]
-
 ## Acknowledgments
 
-- OpenAI for GPT-4 API
-- LlamaIndex for document processing capabilities
-- AutoGen for multi-agent framework 
+- OpenAI for GPT-4 API and advanced language models
+- LlamaIndex for sophisticated document processing capabilities
+- AutoGen for autonomous agent framework
+- The open-source AI community for various tools and libraries 
