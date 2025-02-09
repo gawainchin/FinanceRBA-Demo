@@ -57,8 +57,15 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_api_key_here
 ```
 
-5. Add market research PDFs:
-   - Place your market research PDFs in `FinancialAdvisorRBA/sample_pdf/`
+5. Market Research Documents:
+   The system comes with sample market research PDFs:
+   - `Hong_Kong_Major_Report.pdf`: Comprehensive analysis of Hong Kong markets
+   - `2025-outlook-greater-china-equities.pdf`: Future outlook for Greater China equities
+   - `article_equitymarketcommentaryjanuary2025.pdf`: January 2025 equity market analysis
+   - `outlook-2025-building-on-strength.pdf`: 2025 market outlook and strategy
+   - `wpb-investment-monthly-jan-25.pdf`: January 2025 investment insights
+   
+   You can add your own market research PDFs to `FinancialAdvisorRBA/sample_pdf/`
 
 ## Usage
 
@@ -81,8 +88,11 @@ FinanceRBA-Demo/
     ├── financialdemo.py
     ├── .env
     └── sample_pdf/
-        ├── market_research_1.pdf
-        └── market_research_2.pdf
+        ├── Hong_Kong_Major_Report.pdf
+        ├── 2025-outlook-greater-china-equities.pdf
+        ├── article_equitymarketcommentaryjanuary2025.pdf
+        ├── outlook-2025-building-on-strength.pdf
+        └── wpb-investment-monthly-jan-25.pdf
 ```
 
 ## Dependencies

@@ -35,8 +35,9 @@ wheels/
 .DS_Store
 
 # Project specific
-FinancialAdvisorRBA/sample_pdf/*
-!FinancialAdvisorRBA/sample_pdf/.gitkeep
+# Keep all PDFs in sample_pdf directory
+!FinancialAdvisorRBA/sample_pdf/
+!FinancialAdvisorRBA/sample_pdf/*.pdf
 
 # Logs and databases
 *.log
