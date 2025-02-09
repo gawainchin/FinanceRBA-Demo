@@ -1,4 +1,4 @@
-# Financial Advisor AI
+# Financial Advisor Agentic AI
 
 An advanced AI-powered financial advisory system that leverages Large Language Models (LLMs) and autonomous agents to provide sophisticated investment guidance. The system combines real-time market analysis, intelligent portfolio management, and automated regulatory compliance checks through a multi-agent architecture.
 
