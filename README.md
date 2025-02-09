@@ -82,7 +82,7 @@ OPENAI_API_KEY=your_api_key_here
 
 Run the financial advisor:
 ```bash
-python FinancialAdvisorRBA/financialdemo.py
+python -m FinancialAdvisorRBA.financialdemo
 ```
 
 The system will:
@@ -90,15 +90,23 @@ The system will:
 2. Process and embed market research documents
 3. Start an interactive session for personalized financial advice
 
+You can interact with the system by:
+- Pressing Enter to let the AI auto-reply
+- Typing your responses to provide specific information
+- Typing 'exit' to end the conversation
+
 ## Project Structure
 
 ```
 FinanceRBA-Demo/
 ├── requirements.txt
 └── FinancialAdvisorRBA/
-    ├── financialdemo.py
-    ├── .env
-    └── sample_pdf/
+    ├── __init__.py          # Package initialization
+    ├── config.py            # Configuration management
+    ├── agents.py            # Agent definitions
+    ├── utils.py             # Utility functions
+    ├── financialdemo.py     # Main entry point
+    └── sample_pdf/          # Market research documents
         ├── Hong_Kong_Major_Report.pdf
         ├── 2025-outlook-greater-china-equities.pdf
         ├── article_equitymarketcommentaryjanuary2025.pdf
@@ -123,22 +131,22 @@ FinanceRBA-Demo/
 
 The system employs a sophisticated multi-agent architecture where each AI agent specializes in specific aspects of financial advisory:
 
-1. **Financial Advisor Agent**:
+1. **Financial Advisor Agent** (`agents.py`):
    - Manages client interactions
    - Coordinates with other agents
    - Generates comprehensive financial plans
 
-2. **Portfolio Agent**:
+2. **Portfolio Agent** (`agents.py`):
    - Analyzes investment opportunities
    - Generates portfolio recommendations
    - Optimizes asset allocation
 
-3. **Market Data Agent**:
+3. **Market Data Agent** (`agents.py`):
    - Processes market research
    - Provides real-time insights
    - Analyzes market trends
 
-4. **Compliance Agent**:
+4. **Compliance Agent** (`agents.py`):
    - Ensures regulatory compliance
    - Validates recommendations
    - Maintains documentation standards
