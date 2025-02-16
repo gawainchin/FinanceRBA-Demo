@@ -27,8 +27,9 @@ def load_config():
         "api_key": api_key,
         "llm_config": {
             "config_list": [{
-                "model": "gpt-4o-mini",
-                "api_key": api_key
+                "model": "gpt-4",
+                "api_key": api_key,
+                "temperature": 0.3
             }]
         },
         "pdf_dir": Path(__file__).parent / "sample_pdf"
